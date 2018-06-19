@@ -2,7 +2,11 @@ package com.shinu.LamdasDemo1;
 
 public  class Lambda1 
 {
-	public void greet(Greeter greetings)
+	public static void main(String[] args) 
+	{
+		System.out.println("hello world");
+	}
+	/*public void greet(Greeter greetings)
 	{
 		//prints the greeting message
 		greetings.perform();
@@ -23,7 +27,7 @@ public  class Lambda1
 		
 		lambda.greet(lambdaGreetings);
 	}
-
+*/
 }
 
 
